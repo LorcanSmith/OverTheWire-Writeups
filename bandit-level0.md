@@ -14,3 +14,10 @@ The goal of this level is to log into the game using SSH and retrieve the passwo
 1. **SSH into the server**:
    ```bash
    ssh bandit0@bandit.labs.overthewire.org -p 2220
+2. **Check files and aquire password**:
+   ```bash
+   ls
+   → readme
+   cat readme
+   → ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+**Level Complete** ✅
